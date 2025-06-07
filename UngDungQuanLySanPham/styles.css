@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+}
+
+button {
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    height: 40px;
+    font-weight: bold;
+
+}
+
+.grey {
+    background-color: #ebebeb;
+}
